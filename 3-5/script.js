@@ -24,11 +24,12 @@ class LanguageProgress {
     this.selector.innerHTML = "";
 
     const progressArray = this.generate_Array();
+    const level = this.getLevel();
 
     for (let i = 0; i < progressArray.length; i++) {
       const div = document.createElement("div");
       div.className = `language-box ${progressArray[i] ? "t" : "f"}`;
-      div.setAttribute("level", this.getLevel());
+      div.setAttribute("level", level);
 
       this.selector.appendChild(div);
 

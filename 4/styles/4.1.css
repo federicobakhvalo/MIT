@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #f0f0f0;
+	margin: 20px;
+	line-height: 1.6;
+}
+
+/* Заголовки */
+h1 {
+	font-size: 28px;
+	color: #004080;
+}
+
+h2 {
+	font-size: 22px;
+	color: #006699;
+	margin-top: 30px;
+}
+
+
+p {
+	margin-bottom: 10px;
+}
+
+ul,
+ol {
+	list-style-type: square;
+	margin-left: 20px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #005fa3;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #cc0000;
+}

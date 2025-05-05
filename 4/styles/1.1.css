@@ -1,0 +1,23 @@
+body {
+	background: #2626268f;
+	font–family: Arial, sans–serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: navy;
+
+}
+h2{
+	font-size: 1.5rem;
+	color: black;
+	font-style: italic;
+
+}
+
+p {
+	font–size: 18px;
+	color: darkgreen;
+}
